@@ -146,14 +146,14 @@ void runDirection(char dir) {
       RGB.setPixelColor(2, 0x00FF00 );
       RGB.setPixelColor(3, 0x00FF00 );
       RGB.show();
-      break; // Green
+      break;
     case 'D':
       RGB.setPixelColor(0, 0xff0000 ); //red
       RGB.setPixelColor(1, 0xff0000 );
       RGB.setPixelColor(2, 0xff0000 );
       RGB.setPixelColor(3, 0xff0000 );
       RGB.show();
-      break; // Red
+      break;
     case 'L':
       //left(); 
       delay(370); 
@@ -162,7 +162,7 @@ void runDirection(char dir) {
       RGB.setPixelColor(2, 0x0000ff );
       RGB.setPixelColor(3, 0x0000ff );
       RGB.show();
-      break; // Blue
+      break;
     case 'R':
       //right(); 
       delay(340); 
@@ -171,7 +171,7 @@ void runDirection(char dir) {
       RGB.setPixelColor(2, 0xff00ff );
       RGB.setPixelColor(3, 0xff00ff );
       RGB.show(); 
-      break; // Magenta
+      break;
   }
 }
 
