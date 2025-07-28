@@ -220,11 +220,11 @@ def algorithm(draw, grid, start, end, robot_id, existing_paths, max_wait=3, wait
                reservation_table.get(next_pos) not in (None, robot_id):
                 continue
 
-            # 🚫 Strict reservation collision prevention
+            
             if reservation_table.get((neighbor.row, neighbor.col, next_time)) not in (None, robot_id):
                 continue  # No penalty, just skip (forces reroute)
 
-            # 🧠 Only allow movement if cell is not already blocked
+            #only allow movement if cell is not already blocked
             temp_g_score = g_score[(current, timen)] + 1
 
             if key not in g_score or temp_g_score < g_score[key]:
@@ -370,8 +370,7 @@ def send_to_arduino(robot_id, directions_string):
         pending_executions.append((robot_id, ip))
 
     except Exception as e:
-        print("")
-        #print(f"[Robot {robot_id + 1}] Error: {e}")
+        print(f"[Robot {robot_id + 1}] Error: {e}")
 
 
 def execute_all_pending():
