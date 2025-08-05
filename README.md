@@ -28,7 +28,7 @@ How It Works
 
 Demo Videos
 
-<img width="2255" height="2255" alt="qrVideo" src="https://github.com/user-attachments/assets/4c3bf5c0-c61d-410c-9b18-e0712bb3df78" />
+<img width="1000" height="1000" alt="qrVideo" src="https://github.com/user-attachments/assets/4c3bf5c0-c61d-410c-9b18-e0712bb3df78" />
 
 
 ------------------
