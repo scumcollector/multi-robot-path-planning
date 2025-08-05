@@ -1,4 +1,4 @@
-<img width="221" height="378" alt="{31113221-7220-4430-98CB-CC8F5DADEAFF}" src="https://github.com/user-attachments/assets/e8a5046f-5450-4afe-b887-9c411795025e" />------------------
+------------------
 
 Features
 
@@ -28,7 +28,7 @@ How It Works
 
 Demo Videos
 
-<img width="500" height="500" alt="qrVideo" src="https://github.com/user-attachments/assets/4c3bf5c0-c61d-410c-9b18-e0712bb3df78" />
+<img width="250" height="250" alt="qrVideo" src="https://github.com/user-attachments/assets/4c3bf5c0-c61d-410c-9b18-e0712bb3df78" />
 
 
 ------------------
